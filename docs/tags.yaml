@@ -1,0 +1,54 @@
+migracion:
+  label: Migración
+  description: Todo sobre trámites, visados y experiencias migratorias en Uruguay.
+  color: "#68b4d9"
+
+tránsito:
+  label: Tránsito
+  description: Información sobre el tránsito migratorio y los requisitos legales.
+  color: "#68b4d9"
+
+trámites:
+  label: Trámites
+  description: Guías prácticas para trámites migratorios y legales en Uruguay.
+  color: "#ffc107"
+
+uruguay:
+  label: Uruguay
+  description: Información útil y actualizada para vivir y adaptarse en Uruguay.
+  color: "#28a745"
+
+visa:
+  label: Visa
+  description: Información sobre tipos de visa, requisitos y procesos.
+  color: "#dc3545"
+
+residencia:
+  label: Residencia
+  description: Cómo obtener la residencia legal y los pasos clave en el proceso.
+  color: "#6f42c1"
+
+trabajo:
+  label: Trabajo
+  description: Acceso al mercado laboral, consejos y derechos de trabajadores migrantes.
+  color: "#20c997"
+
+documentacion:
+  label: Documentación
+  description: Qué papeles necesitás para moverte legalmente por Uruguay.
+  color: "#0d6efd"
+
+beneficios:
+  label: Beneficios
+  description: Prestaciones, ayudas y derechos que podés obtener como migrante.
+  color: "#17a2b8"
+
+vida-cotidiana:
+  label: Vida Cotidiana
+  description: Costumbres, servicios, y aspectos prácticos para vivir en Uruguay.
+  color: "#fd7e14"
+
+historias:
+  label: Historias
+  description: Testimonios reales de migrantes que ya hicieron el camino.
+  color: "#343a40"
