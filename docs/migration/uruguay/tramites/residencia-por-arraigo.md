@@ -33,7 +33,8 @@ Para personas que estudien por más de un año en una institución educativa hab
 
 ## Requisitos Generales
 
-- Permanecer en Uruguay por más de 180 días desde el ingreso legal.
+- Haber entrado a Uruguay como Solicitante de Refugio **antes del 23 de mayo de 2024**.
+- Contar con una permanencia ininterrumpida superior 180 días en el territorio nacional.
 - No estar impedido por ley para residir en Uruguay.
 - Presentar la documentación requerida:
   - Pasaporte o documento de viaje
