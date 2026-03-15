@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'El Blog de Arael Espinosa',
+  title: 'La Wiki de Arael Espinosa',
   tagline: 'Dando una mano',
   favicon: 'img/favicon.ico',
 
@@ -73,7 +73,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'El Blog de Arael Espinosa',
+      title: 'La Wiki de Arael Espinosa',
       logo: {
         alt: 'My Site Logo',
         src: 'img/favicon-32x32.png',
@@ -118,7 +118,20 @@ const config: Config = {
             },
             {
               label: 'TikTok',
-              href: 'https://tiktok.com/@elvlogdepaco',
+              href: 'https://tiktok.com/@arael_espinosa',
+            },
+          ],
+        },
+        {
+          title: 'Gestoría',
+          items: [
+            {
+              label: 'WhatsApp',
+              href: 'https://wa.me/59899598034',
+            },
+            {
+              label: 'Email',
+              href: 'mailto:gestoria@araelespinosa.me',
             },
           ],
         },
