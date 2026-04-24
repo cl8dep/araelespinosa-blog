@@ -1,0 +1,40 @@
+---
+sidebar_position: 1
+title: Cartas de ciudadanía emitidas (2015–2025)
+description: Datos oficiales de la Corte Electoral sobre cartas de ciudadanía emitidas en Uruguay desde 2015, desglosados por país de origen.
+keywords:
+  - carta de ciudadanía
+  - naturalización
+  - uruguay
+  - inmigracion
+  - estadísticas
+tags: [migracion, uruguay]
+---
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
+# Cartas de ciudadanía emitidas en Uruguay
+
+La [Corte Electoral](https://www.corteelectoral.gub.uy/) de Uruguay publicó los datos de cartas de ciudadanía emitidas desde 2015 desglosados por país de origen del solicitante. El total acumulado es de **13.222 cartas**.
+
+La carta de ciudadanía (o ciudadanía legal) es el mecanismo por el cual un extranjero obtiene la ciudadanía uruguaya luego de cumplir los requisitos de residencia establecidos en la Constitución.
+
+:::info Fuente
+Datos proporcionados por la **Corte Electoral de Uruguay**. Período: 2015 – 2025.
+:::
+
+## Visualización
+
+<BrowserOnly fallback={<div>Cargando mapa...</div>}>
+  {() => {
+    const CitizenshipMap = require('../../src/components/CitizenshipMap').default;
+    return <CitizenshipMap />;
+  }}
+</BrowserOnly>
+
+## Observaciones
+
+- **Venezuela, Cuba y Argentina** concentran más del **43%** del total de cartas emitidas.
+- América Latina y el Caribe representa la gran mayoría de naturalizaciones.
+- Entre los países no latinoamericanos, **España** (293), **Rusia** (170), **Italia** (152) y **China** (89) son los más destacados.
+- Se registran solicitudes de más de **100 países**, reflejando la diversidad de la inmigración en Uruguay.

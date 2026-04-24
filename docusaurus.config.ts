@@ -35,6 +35,19 @@ const config: Config = {
     locales: ['es'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'statistics',
+        path: 'stats',
+        routeBasePath: 'stats',
+        sidebarPath: './sidebars-stats.ts',
+        onInlineTags: 'warn',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -84,6 +97,13 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentación',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'statisticsSidebar',
+          docsPluginId: 'statistics',
+          position: 'left',
+          label: 'Estadísticas',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
