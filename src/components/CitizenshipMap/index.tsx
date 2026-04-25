@@ -179,7 +179,7 @@ function WorldMap() {
           }}>
           <strong>{tooltip.name}</strong>
           <br />
-          {tooltip.count.toLocaleString('es-UY')} cartas
+          {tooltip.count.toLocaleString('es-UY')} credenciales
         </div>
       )}
       <ComposableMap
@@ -274,7 +274,7 @@ function TopChart() {
         <Tooltip
           formatter={(value: number) => [
             value.toLocaleString('es-UY'),
-            'Cartas',
+            'Credenciales',
           ]}
         />
         <Bar dataKey="count" fill="#2e86de" radius={[0, 3, 3, 0]} />
@@ -315,7 +315,7 @@ function CountryTable() {
           <tr style={{borderBottom: '2px solid #ddd', textAlign: 'left'}}>
             <th style={{padding: '6px 8px'}}>#</th>
             <th style={{padding: '6px 8px'}}>País</th>
-            <th style={{padding: '6px 8px', textAlign: 'right'}}>Cartas</th>
+            <th style={{padding: '6px 8px', textAlign: 'right'}}>Credenciales</th>
             <th style={{padding: '6px 8px', textAlign: 'right'}}>%</th>
           </tr>
         </thead>
