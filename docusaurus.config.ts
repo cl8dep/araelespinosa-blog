@@ -153,6 +153,15 @@ const config: Config = {
           ],
         },
         {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Términos y condiciones',
+              to: '/terms',
+            },
+          ],
+        },
+        {
           title: 'Mis Redes Sociales',
           items: [
             {
