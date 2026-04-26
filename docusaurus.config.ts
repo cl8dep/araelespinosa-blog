@@ -78,13 +78,40 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales sobre inmigración, explicados en detalle.',
+      },
+      {name: 'og:type', content: 'website'},
+      {name: 'og:locale', content: 'es_UY'},
+      {name: 'og:site_name', content: 'La Wiki de Arael Espinosa'},
+      {
+        name: 'og:description',
+        content:
+          'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales sobre inmigración, explicados en detalle.',
+      },
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@arael_espinosa'},
+      {
+        name: 'twitter:description',
+        content:
+          'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales.',
+      },
+    ],
     navbar: {
       title: 'La Wiki de Arael Espinosa',
       logo: {

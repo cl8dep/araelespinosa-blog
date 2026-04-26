@@ -13,6 +13,59 @@ keywords:
 tags: [migración, trámites, residencia, uruguay, legalización, permanencia]
 ---
 
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cómo obtener la Residencia Legal Definitiva en Uruguay",
+  "description": "Pasos para obtener la residencia legal permanente en Uruguay como extranjero, incluyendo requisitos, documentación y costos.",
+  "inLanguage": "es",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Iniciar el trámite online",
+      "text": "Ingresar a la plataforma de trámites del gobierno uruguayo y completar la solicitud de residencia legal permanente.",
+      "url": "https://www.gub.uy/tramites/residencia-legal-permanente"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Esperar el correo de audiencia",
+      "text": "Una vez aceptada la solicitud, se recibirá un correo electrónico con instrucciones para agendar la audiencia presencial."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Asistir a la audiencia con la documentación",
+      "text": "Presentarse en la fecha y hora asignadas con toda la documentación excluyente: documento de identidad, foto, certificado de antecedentes penales, carné de salud, certificado de vacunación y medios de vida."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Agendar la cédula de identidad",
+      "text": "Luego de la audiencia, se puede agendar el trámite para obtener la cédula de identidad como residente en trámite."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Completar documentación faltante",
+      "text": "En caso de no haber aportado toda la documentación en la audiencia, se deberá enviar el resto por correo electrónico."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Recibir la aprobación",
+      "text": "Una vez evaluada y aprobada la documentación, se recibirá un correo electrónico confirmando el otorgamiento de la residencia."
+    }
+  ],
+  "totalTime": "P3M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "UYU",
+    "value": "557.30 UI"
+  }
+}`}</script>
+
 # Residencia Legal Definitiva (permanente)
 
 ## Generalidades

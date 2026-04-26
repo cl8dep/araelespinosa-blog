@@ -11,13 +11,67 @@ keywords:
   - inmigracion
   - estadísticas
 tags: [migracion, uruguay]
+slug: /uruguay/civic-credentials
 ---
 
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import Head from '@docusaurus/Head';
+
+<Head>
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Credenciales cívicas emitidas a extranjeros en Uruguay (2015–2025)",
+  "description": "Datos estadísticos sobre la cantidad de credenciales cívicas emitidas a personas de nacionalidad extranjera en Uruguay, desagregados por año y nacionalidad de origen. Período: enero 2015 – 2025.",
+  "url": "https://blog.araelespinosa.me/stats/uruguay/civic-credentials",
+  "inLanguage": "es",
+  "creator": {
+    "@type": "GovernmentOrganization",
+    "name": "Corte Electoral de Uruguay",
+    "url": "https://www.corteelectoral.gub.uy/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Arael Espinosa",
+    "url": "https://blog.araelespinosa.me"
+  },
+  "license": "https://www.impo.com.uy/bases/leyes/18381-2008",
+  "temporalCoverage": "2015/2025",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Uruguay"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "contentUrl": "https://blog.araelespinosa.me/docs/credenciales-civicas-2015-2025.xlsx"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/pdf",
+      "contentUrl": "https://blog.araelespinosa.me/docs/expediente-2026-18-1-002219.pdf"
+    }
+  ]
+}`}</script>
+</Head>
 
 # Credenciales cívicas emitidas a extranjeros en Uruguay
 
-La [Corte Electoral](https://www.corteelectoral.gub.uy/) de Uruguay publicó información estadística sobre la cantidad de **credenciales cívicas emitidas a personas de nacionalidad extranjera**, ya sea con ciudadanía legal o natural, en el período comprendido entre el **1.° de enero de 2015** y la fecha más reciente disponible, desagregada por año y por nacionalidad de origen. El total acumulado es de **13.222 credenciales**.
+Esta página presenta información estadística sobre la cantidad de **credenciales cívicas emitidas a personas de nacionalidad extranjera** en Uruguay, en respuesta a una solicitud de acceso a información pública presentada ante la [Corte Electoral](https://www.corteelectoral.gub.uy/).
+
+## Solicitud de información pública
+
+La información que se visualiza a continuación es la respuesta oficial de la Corte Electoral de Uruguay a la siguiente solicitud (Expediente **2026-18-1-002219**):
+
+> "Se solicita información estadística sobre la cantidad de credenciales cívicas emitidas a personas de nacionalidad extranjera, ya sea con ciudadanía legal o natural, en el período comprendido entre el 1.° de enero de 2015 y la fecha más reciente disponible, desagregada por año y por nacionalidad de origen, en caso de que la información se encontrare disponible en ese formato."
+
+La Corte Electoral respondió a dicha solicitud con los siguientes documentos oficiales:
+
+- [Datos estadísticos — Credenciales cívicas 2015–2025 (Excel)](/docs/credenciales-civicas-2015-2025.xlsx)
+- [Expediente 2026-18-1-002219 (PDF)](/docs/expediente-2026-18-1-002219.pdf)
+
+El total acumulado en el período es de **13.222 credenciales**.
 
 La credencial cívica es el documento que habilita el ejercicio del voto. En el caso de extranjeros, puede obtenerse mediante:
 
@@ -25,7 +79,7 @@ La credencial cívica es el documento que habilita el ejercicio del voto. En el 
 - **Ciudadanía natural**: adquirida por nacimiento en territorio uruguayo o por filiación.
 
 :::info Fuente
-Datos obtenidos mediante una **solicitud de acceso a información pública** dirigida a la Corte Electoral de Uruguay, amparada en la [Ley N.° 18.381 de Acceso a la Información Pública](https://www.impo.com.uy/bases/leyes/18381-2008). Período: 1.° de enero de 2015 – 2025.
+Datos obtenidos mediante solicitud de acceso a información pública (Expediente 2026-18-1-002219) dirigida a la Corte Electoral de Uruguay, amparada en la [Ley N.° 18.381 de Acceso a la Información Pública](https://www.impo.com.uy/bases/leyes/18381-2008). Período: 1.° de enero de 2015 – 2025.
 :::
 
 ## Visualización
@@ -43,3 +97,7 @@ Datos obtenidos mediante una **solicitud de acceso a información pública** dir
 - América Latina y el Caribe representa la gran mayoría de las credenciales otorgadas a extranjeros.
 - Entre los países no latinoamericanos, **España** (293), **Rusia** (170), **Italia** (152) y **China** (89) son los más destacados.
 - Se registran solicitudes de más de **100 países**, reflejando la diversidad de la inmigración en Uruguay.
+
+## Descargo de responsabilidad
+
+La información presentada en esta página proviene exclusivamente de los documentos oficiales facilitados por la Corte Electoral de Uruguay en respuesta a la solicitud de acceso a información pública antes mencionada. Si bien los datos han sido procesados con fidelidad a la fuente original, no se garantiza su exactitud, completitud o vigencia. Esta página tiene fines informativos únicamente y no constituye asesoramiento legal ni documento oficial. Para obtener información actualizada o verificada, se recomienda consultar directamente a la [Corte Electoral de Uruguay](https://www.corteelectoral.gub.uy/).

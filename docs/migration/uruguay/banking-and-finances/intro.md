@@ -1,5 +1,12 @@
 ---
 sidebar_position: 1
+description: Guía sobre servicios bancarios y financieros en Uruguay para migrantes — tarjetas de débito, cuentas bancarias e instituciones financieras no bancarias.
+keywords:
+  - banca uruguay migrantes
+  - tarjetas débito uruguay
+  - cuenta bancaria uruguay extranjeros
+  - instituciones financieras no bancarias uruguay
+  - finanzas uruguay
 ---
 
 # Intro

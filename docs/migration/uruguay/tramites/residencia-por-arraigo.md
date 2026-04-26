@@ -4,6 +4,53 @@ title: Residencia por Arraigo
 description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para solicitantes de refugio y otras personas en situación irregular.
 ---
 
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cómo obtener la Residencia por Arraigo en Uruguay",
+  "description": "Pasos para regularizar la situación migratoria en Uruguay mediante el programa Residencia por Arraigo (Decreto 138/024), disponible para ex solicitantes de refugio.",
+  "inLanguage": "es",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Iniciar el trámite en línea",
+      "text": "Ingresar a la plataforma de trámites del gobierno uruguayo y completar el formulario de solicitud de Residencia por Arraigo.",
+      "url": "https://www.gub.uy/tramites/residencia-arraigo"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Subir la documentación digital",
+      "text": "Adjuntar los documentos requeridos: pasaporte, certificado de antecedentes penales, carné de salud, certificado de vacunación, foto carné y documentación específica según el tipo de arraigo (laboral, familiar o formación)."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Recibir confirmación e instrucciones",
+      "text": "Se recibirá un correo electrónico con la confirmación de la solicitud e instrucciones para agendar la audiencia presencial."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Asistir a la audiencia presencial",
+      "text": "Presentarse en la oficina correspondiente en la fecha y hora asignadas con toda la documentación en original."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Obtener el certificado de residencia en trámite",
+      "text": "Una vez iniciado el expediente, se obtiene el certificado de residente en trámite, que permite trabajar legalmente y gestionar la cédula de identidad."
+    }
+  ],
+  "totalTime": "P3M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "UYU",
+    "value": "557.30 UI"
+  }
+}`}</script>
+
 # Residencia por Arraigo en Uruguay
 
 Desde el **16 de mayo de 2024**, con el [**Decreto Nº 138/024**](https://www.impo.com.uy/bases/decretos/138-2024), Uruguay habilitó una vía para regularizar la situación migratoria de personas que permanecen en el país tras solicitar refugio, a través del programa **Residencia por Arraigo**.

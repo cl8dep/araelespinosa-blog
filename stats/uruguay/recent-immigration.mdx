@@ -1,0 +1,105 @@
+---
+sidebar_position: 2
+title: Inmigración reciente en Uruguay (2022–2024)
+description: Datos sobre el perfil sociodemográfico e inserción laboral de la población inmigrante reciente en Uruguay, según la Encuesta Continua de Hogares (ECH) y el Censo 2023.
+keywords:
+  - inmigración
+  - mercado laboral
+  - uruguay
+  - migrantes
+  - estadísticas
+tags: [migracion, uruguay]
+slug: /uruguay/recent-immigration
+---
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import Head from '@docusaurus/Head';
+
+<Head>
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Inmigración reciente en Uruguay (2022–2024)",
+  "description": "Datos sobre el perfil sociodemográfico e inserción laboral de la población inmigrante reciente en Uruguay, basados en la Encuesta Continua de Hogares (ECH) y el Censo 2023.",
+  "url": "https://blog.araelespinosa.me/stats/uruguay/recent-immigration",
+  "inLanguage": "es",
+  "creator": [
+    {
+      "@type": "GovernmentOrganization",
+      "name": "Ministerio de Trabajo y Seguridad Social — Unidad Estadística del Trabajo y la Seguridad Social",
+      "url": "https://www.gub.uy/ministerio-trabajo-seguridad-social/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Facultad de Ciencias Sociales, Universidad de la República",
+      "url": "https://cienciassociales.edu.uy/"
+    }
+  ],
+  "publisher": {
+    "@type": "Person",
+    "name": "Arael Espinosa",
+    "url": "https://blog.araelespinosa.me"
+  },
+  "datePublished": "2026-04-23",
+  "temporalCoverage": "2022/2024",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Uruguay"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/pdf",
+      "contentUrl": "https://blog.araelespinosa.me/docs/presentacion-migrantes-2022-2024.pdf"
+    }
+  ]
+}`}</script>
+</Head>
+
+# Inmigración reciente en Uruguay (2022–2024)
+
+Esta página presenta datos sobre el perfil sociodemográfico y la inserción laboral de la **población inmigrante reciente en Uruguay**, elaborados por la Unidad Estadística del Trabajo y la Seguridad Social del Ministerio de Trabajo y Seguridad Social, en conjunto con la Facultad de Ciencias Sociales de la Universidad de la República (abril de 2026).
+
+## Fuente
+
+El análisis se basa en dos fuentes complementarias:
+
+- **Encuesta Continua de Hogares (ECH)**: principal fuente para el estudio de la inclusión sociolaboral. Permite seguimiento continuo, aunque excluye viviendas colectivas y tiene limitaciones para desagregaciones anuales dado el tamaño muestral reducido de personas migrantes.
+- **Censo 2023**: cobertura universal de la población residente. Permite mayor desagregación por país de nacimiento y pequeñas áreas, aunque con periodicidad decenal.
+
+El documento completo puede consultarse aquí:
+
+- [Presentación: Inmigración reciente en Uruguay 2022–2024 (PDF)](/docs/presentacion-migrantes-2022-2024.pdf)
+
+:::info Fuente
+Unidad Estadística del Trabajo y la Seguridad Social — Ministerio de Trabajo y Seguridad Social / Facultad de Ciencias Sociales, Universidad de la República. Publicado el 23 de abril de 2026.
+:::
+
+## Perfil sociodemográfico
+
+Según los datos del Censo 2023, **Argentina** continúa siendo el principal origen de la inmigración (32.027 personas). La principal transformación respecto al período intercensal es el desplazamiento de Brasil como segundo origen histórico, superado por **Venezuela y Cuba**. La población inmigrante reciente es más joven, tiene composición por sexo equilibrada, mayor diversidad étnico-racial y **alto nivel educativo** en comparación con la población nativa.
+
+## Cuantificación
+
+Según la ECH, en el período postpandemia (2022–2024) se evidencia una desaceleración en el crecimiento de la población inmigrante reciente (promedio de 30.000 personas anuales), sugiriendo el fin de una fase de expansión acelerada. El Censo 2023 estima que las personas nacidas fuera del país que llegaron entre 2018 y 2023 ascienden a **44.167**, cifra un 38% superior a la estimación de la ECH para el mismo grupo.
+
+## Visualización interactiva
+
+<BrowserOnly fallback={<div>Cargando gráficos...</div>}>
+  {() => {
+    const ImmigrationStats = require('../../src/components/ImmigrationStats').default;
+    return <ImmigrationStats />;
+  }}
+</BrowserOnly>
+
+## Conclusiones principales
+
+- Más de la mitad de las personas inmigrantes llegaron al país en los últimos doce años, con una proporción sustantiva en el quinquenio 2018–2023 (Censo 2023).
+- **Alta participación laboral** de la población inmigrante, aunque no se traduce de manera homogénea en mejores resultados. Las mujeres inmigrantes recientes enfrentan una combinación particularmente desfavorable.
+- **Inserción bimodal**: concentración simultánea en servicios de baja calificación (comercio, hotelería, transporte) y en sectores altamente profesionales (informática y comunicaciones).
+- **Calidad del empleo**: no se observa una afectación desfavorable a los puestos de trabajo ocupados por personas inmigrantes en comparación con las nativas.
+- A mayor tiempo de residencia, se evidencian procesos de convergencia hacia la población nativa.
+
+## Descargo de responsabilidad
+
+La información presentada en esta página proviene exclusivamente del documento oficial elaborado por la Unidad Estadística del Trabajo y la Seguridad Social (MTSS) y la Facultad de Ciencias Sociales (UdelaR). Los datos han sido reproducidos con fidelidad a la fuente, pero no se garantiza su exactitud, completitud o vigencia. Esta página tiene fines informativos únicamente y no constituye asesoramiento legal ni documento oficial. Para información actualizada, se recomienda consultar directamente al [Ministerio de Trabajo y Seguridad Social](https://www.gub.uy/ministerio-trabajo-seguridad-social/) o a la [Facultad de Ciencias Sociales, UdelaR](https://cienciassociales.edu.uy/).

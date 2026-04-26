@@ -5,8 +5,46 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import Head from '@docusaurus/Head';
 
 import styles from './index.module.css';
+
+const SITE_URL = 'https://blog.araelespinosa.me';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: 'La Wiki de Arael Espinosa',
+      description:
+        'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales sobre inmigración.',
+      inLanguage: 'es',
+      publisher: {
+        '@id': `${SITE_URL}/#organization`,
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      name: 'Arael Espinosa',
+      url: SITE_URL,
+      sameAs: [
+        'https://instagram.com/araeal_espinosa',
+        'https://youtube.com/@elvlogdepaco',
+        'https://tiktok.com/@arael_espinosa',
+      ],
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer service',
+        email: 'gestoria@araelespinosa.me',
+        availableLanguage: 'Spanish',
+      },
+    },
+  ],
+};
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -16,25 +54,21 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        {/* <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div> */}
       </div>
     </header>
   );
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.title}
-      description={siteConfig.tagline}>
+      title="La Wiki de Arael Espinosa"
+      description="Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales sobre inmigración, explicados en detalle.">
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLd)}
+        </script>
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
